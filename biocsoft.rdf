@@ -1,0 +1,1256 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10/"
+     xml:base="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Agroinformatics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Agroinformatics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Alignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Alignment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#WorkflowStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AlternativeSplicing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AlternativeSplicing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Annotation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Annotation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#WorkflowStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AnnotationHubSoftware -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AnnotationHubSoftware">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AssayDomain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AssayDomain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BatchEffect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BatchEffect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#WorkflowStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Bayesian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Bayesian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiomedicalInformatics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiomedicalInformatics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Biophysics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Biophysics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#CRISPR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#CRISPR">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#CellBasedAssays -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#CellBasedAssays">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AssayDomain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#CellBiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#CellBiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ChIPchip -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ChIPchip">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AssayDomain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Cheminformatics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Cheminformatics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Classification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Classification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Clustering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Clustering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ComparativeGenomics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ComparativeGenomics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ComputationalChemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ComputationalChemistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#CopyNumberVariation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#CopyNumberVariation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AssayDomain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Coverage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Coverage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#CpGIsland -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#CpGIsland">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AssayDomain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DNA3DStructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DNA3DStructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DNAMethylation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DNAMethylation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AssayDomain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DataImport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DataImport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DataRepresentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DataRepresentation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DecisionTree -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DecisionTree">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DemethylateRegionDetection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DemethylateRegionDetection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DenovoAssembler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DenovoAssembler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DifferentialDNA3DStructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DifferentialDNA3DStructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DifferentialExpression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DifferentialExpression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DifferentialMethylation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DifferentialMethylation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DifferentialPeakCalling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DifferentialPeakCalling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DifferentialSplicing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DifferentialSplicing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DimensionReduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DimensionReduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DriverMutation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DriverMutation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Epigenetics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Epigenetics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Epitranscriptomics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Epitranscriptomics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ExonArray -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ExonArray">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AssayDomain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ExperimentHubSoftware -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ExperimentHubSoftware">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ExperimentalDesign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ExperimentalDesign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#WorkflowStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#FeatureExtraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#FeatureExtraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#FlowCytometry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#FlowCytometry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#FunctionalGenomics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#FunctionalGenomics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#FunctionalPrediction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#FunctionalPrediction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GUI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GUI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneExpression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneExpression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AssayDomain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneFusionDetection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneFusionDetection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GenePrediction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GenePrediction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneRegulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneRegulation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneSetEnrichment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneSetEnrichment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneSignaling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneSignaling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneTarget -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneTarget">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneticVariability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneticVariability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AssayDomain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Genetics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Genetics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GenomeAnnotation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GenomeAnnotation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GenomeAssembly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GenomeAssembly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GenomeBrowsers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GenomeBrowsers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#WorkflowStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GenomeWideAssociation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GenomeWideAssociation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GenomicVariation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GenomicVariation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GermlineMutation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GermlineMutation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GraphAndNetwork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GraphAndNetwork">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#HiddenMarkovModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#HiddenMarkovModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#HistoneModification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#HistoneModification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ImmunoOncology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ImmunoOncology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#IndelDetection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#IndelDetection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Infrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Infrastructure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#LinkageDisequilibrium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#LinkageDisequilibrium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Lipidomics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Lipidomics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MassSpectrometry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MassSpectrometry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MathematicalBiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MathematicalBiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Metabolomics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Metabolomics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MetagenomeAssembly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MetagenomeAssembly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Metagenomics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Metagenomics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Microarray -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Microarray">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MicrosatelliteDetection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MicrosatelliteDetection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MicrotitrePlateAssay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MicrotitrePlateAssay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MotifAnnotation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MotifAnnotation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MotifDiscovery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MotifDiscovery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MultidimensionalScaling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MultidimensionalScaling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MultipleComparison -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MultipleComparison">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#WorkflowStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#NetworkEnrichment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#NetworkEnrichment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#NetworkInference -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#NetworkInference">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#NeuralNetwork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#NeuralNetwork">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Normalization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Normalization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#WorkflowStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#NucleosomePositioning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#NucleosomePositioning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Pathways -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Pathways">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#WorkflowStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#PatternLogic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#PatternLogic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#PeakDetection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#PeakDetection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Pharmacogenetics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Pharmacogenetics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Pharmacogenomics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Pharmacogenomics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Phylogenetics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Phylogenetics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Preprocessing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Preprocessing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#WorkflowStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#PrincipalComponent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#PrincipalComponent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Proteomics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Proteomics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#QualityControl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#QualityControl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#WorkflowStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#QuantitativeTrailLocus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#QuantitativeTrailLocus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Regression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Regression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ReportWriting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ReportWriting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#WorkflowStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SAGE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SAGE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SNP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SNP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AssayDomain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Scaffolding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Scaffolding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SequenceMatching -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SequenceMatching">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Sequencing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Sequencing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ShinyApps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ShinyApps"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SingleCell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SingleCell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SomaticMutation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SomaticMutation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Spatial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Spatial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SplicedAlignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SplicedAlignment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StructuralEquationModels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StructuralEquationModels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StructuralGenomics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StructuralGenomics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StructuralPrediction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StructuralPrediction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StructuralVariation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StructuralVariation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SupportVectorMachine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SupportVectorMachine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Survival -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Survival">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SystemsBiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SystemsBiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Technology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ThirdPartyClient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ThirdPartyClient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#TimeCourse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#TimeCourse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Transcription -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Transcription">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AssayDomain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#TranscriptomeVariant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#TranscriptomeVariant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Transcriptomics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Transcriptomics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#VariantAnnotation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#VariantAnnotation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#VariantDetection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#VariantDetection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Visualization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Visualization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#WorkflowStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#WorkflowManagement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#WorkflowManagement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#WorkflowStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#WorkflowStep"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#aCGH -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#aCGH">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AssayDomain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ddPCR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ddPCR">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#qPCR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#qPCR">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Agroinformatics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiomedicalInformatics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Biophysics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#CellBiology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Cheminformatics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ComparativeGenomics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ComputationalChemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Epigenetics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Epitranscriptomics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#FunctionalGenomics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Genetics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ImmunoOncology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Lipidomics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MathematicalBiology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Metabolomics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Metagenomics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Pharmacogenetics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Pharmacogenomics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Phylogenetics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Proteomics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StructuralGenomics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StructuralPrediction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SystemsBiology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Transcriptomics"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Alignment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Annotation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BatchEffect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ExperimentalDesign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GenomeBrowsers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MultipleComparison"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Normalization"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Pathways"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Preprocessing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#QualityControl"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ReportWriting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Visualization"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AlternativeSplicing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Coverage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DNA3DStructure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DemethylateRegionDetection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DenovoAssembler"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DifferentialDNA3DStructure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DifferentialExpression"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DifferentialMethylation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DifferentialPeakCalling"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DifferentialSplicing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DriverMutation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#FunctionalPrediction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneFusionDetection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GenePrediction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneRegulation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneSetEnrichment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneSignaling"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneTarget"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GenomeAnnotation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GenomeAssembly"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GenomeWideAssociation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GenomicVariation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GermlineMutation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#HistoneModification"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#IndelDetection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#LinkageDisequilibrium"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MetagenomeAssembly"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MicrosatelliteDetection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MotifAnnotation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MotifDiscovery"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#NetworkEnrichment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#NetworkInference"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#NucleosomePositioning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#PeakDetection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#QuantitativeTrailLocus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Scaffolding"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SequenceMatching"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SomaticMutation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SplicedAlignment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StructuralVariation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#TranscriptomeVariant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#VariantAnnotation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#VariantDetection"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AnnotationHubSoftware"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#CRISPR"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ExperimentHubSoftware"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#FlowCytometry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MassSpectrometry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Microarray"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MicrotitrePlateAssay"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SAGE"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Sequencing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SingleCell"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Spatial"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ddPCR"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#qPCR"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#AssayDomain"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#BiologicalQuestion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Infrastructure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ResearchField"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ShinyApps"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StatisticalMethod"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Technology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#WorkflowManagement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#WorkflowStep"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Bayesian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Classification"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Clustering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DecisionTree"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DimensionReduction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#FeatureExtraction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GraphAndNetwork"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#HiddenMarkovModel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#MultidimensionalScaling"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#NeuralNetwork"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#PatternLogic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#PrincipalComponent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Regression"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#StructuralEquationModels"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SupportVectorMachine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Survival"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#TimeCourse"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#CellBasedAssays"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ChIPchip"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#CopyNumberVariation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#CpGIsland"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DNAMethylation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ExonArray"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneExpression"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GeneticVariability"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#SNP"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#Transcription"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#aCGH"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DataImport"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#DataRepresentation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#GUI"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vincent/ontologies/2024/7/untitled-ontology-10#ThirdPartyClient"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
